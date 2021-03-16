@@ -1,0 +1,73 @@
+    body{height: 100%}
+    #main{
+        border: 3px solid red;
+        margin: 0 auto;
+        margin-top: 104px;
+        height: 720px;
+        width: 410px;
+    }
+    .logo{
+        border: 3px solid blue;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        height: 99px;
+        width: 329px;
+    }
+    .text_field{
+        border: 3px solid green;
+        width: 410px;
+        height: 110px;
+        margin: 0 auto;
+    }
+    .text_field input {
+       border-radius: 10px;
+       margin: 0 auto;
+       margin-bottom: 12px;
+       width: 410px;
+       height: 49px;
+       font-size: 20px;
+   }
+   .btn {
+       border: 3px solid blue;
+       padding-top: 42px;
+       width: 410px;
+       height: 110px;
+       margin: 0 auto;
+   }
+   .btn input{
+       border-radius: 10px;
+       border: 3px solid blue;
+       margin: 0 auto;
+       margin-bottom: 12px;
+       width: 410px;
+       height: 48px;
+   }
+   ul{
+    padding-top: 22px;
+    margin: 0 auto;
+   }
+   li {
+        list-style: none;
+        border: 3px solid black;
+        text-align: center;
+    }
+    .btn2 {
+       border: 3px solid green;
+       width: 410px;
+       height: 110px;
+       margin: 0 auto;
+       margin-top: 34px;
+   }
+   .btn2 input{
+       border-radius: 10px;
+       border: 3px solid green;
+       margin: 0 0 0 0px;
+       margin-bottom: 12px;
+       width: 410px;
+       height: 48px;
+   }
+   footer {
+       height: 100px;
+       margin: 0 auto;
+       background: #2E2E2E;
+   }
