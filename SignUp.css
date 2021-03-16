@@ -1,0 +1,92 @@
+body{height: 100%}
+#main{
+  margin: 0 auto;
+  padding: 0 0 60 60px;
+  height: 720px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+.sign_title {
+  margin : 0 0 0 0px;
+  margin-left: 85px;
+}
+.logo {
+  width: 163px;
+  height: 60px;
+  margin-right: 90px;
+  border: 1px solid blue;
+}
+.header_line {
+  width: 1740px;
+  margin-top: -10px;
+  border: 0px;
+  height: 4px;
+  background: black;
+}
+.text_intro {
+  font-size: 20px;
+  text-align: center;
+  width: 512px;
+  height: 520px;
+  margin-left: 250px;
+  float: left;
+}
+.nav{
+  padding-top: 0 auto;
+}
+ul {
+  padding-top: 0 auto;
+  margin-left: 322px;
+  list-style: none;
+}
+li {
+  margin-bottom: 45px;
+}
+.height_line {
+  top: 205px;
+  height: 350px;
+  border-left: 3px solid gray;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+}
+.main_container {
+  width: 100%;
+  float: right;
+  align-content: center;
+  margin-top: 100px;
+}
+.text_field{
+  margin: 0 auto;
+  margin-top: 12px;
+  height: 100%;
+  width: 100%;
+}
+.text_field input {
+    margin-bottom: 25px;
+    margin-top: 5px;
+    width: 383px;
+    height: 36px;
+}
+.text_field2 input {
+    margin-bottom: 20px;
+    width: 78px;
+    height: 36px;
+}
+.btn {
+   width: 209px;
+   height: 49px;
+   margin: 0 auto;
+   margin-top: 71px;
+   font-size: 20px;
+}
+.btn input{
+   margin: 0 auto;
+   margin-top: 25px;
+   width: 209px;
+   height: 49px;
+   font-size: 20px;
+}
