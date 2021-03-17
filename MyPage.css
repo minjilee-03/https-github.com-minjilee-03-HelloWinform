@@ -1,0 +1,75 @@
+header {
+    position: fixed;
+    border: 3px solid green;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 133px;
+    padding: 1rem;
+    color: white;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    border: 3px solid red;
+    margin-left: 61px;
+    height: 60px;
+    width: 129px;
+}
+li {
+    list-style: none;
+    margin: auto;
+    border: 3px solid black;
+    float: right;
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #848484;
+    text-decoration: none;
+}
+
+a:active {
+    color: #848484;
+    text-decoration: none;
+}
+#main{
+    border: 3px solid black;
+    border-radius: 40px;
+    height: 720px;
+    margin-top: 170px;
+}
+.line{
+    margin: 0 auto;
+    margin-left: 150px;
+    width: 625px;
+    height: 720px;
+    border-right: 3px solid blue;
+}
+.profile{
+    border: 3px solid red;
+    margin:0 auto;
+    padding-top: 100px;
+    width: 350px;
+    height: 350px;
+}
+#findbtn{
+    border: 3px solid red;
+    margin-left: 200px;
+}
