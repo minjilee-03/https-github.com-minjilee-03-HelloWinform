@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Swith</title>
-	<link rel="stylesheet" href="Vocabulary.css" type="text/css">
-	<script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="MakingVocabulary.css" type="text/css">
 </head>
 <body>
 	<div id="container">
@@ -20,7 +19,7 @@
 			<div class="list">
 				<ul class="listul">
 			        <li class="group">
-			            <div class="title"><img src="image/folder.png"/>영어</div>
+			            <div class="title" style="color: #fcd121;"><img src="image/folder.png"/>영어</div>
 			            <ul class="sub">
 			                <li><div style="float: left;"></div><a href="#">1단원</a></li>
 			                <li><div style="float: left;"></div><a href="#">2단원</a></li>
@@ -35,44 +34,33 @@
 			            </ul>
 			        </li>       
 			    </ul>
-			    <p>+ 새로 만들기</p>
-			    <ul class="listul_two">
-			    	<li class="group">
-			            <div class="title"><img src="image/folder.png"/>일본어</div>
-			            <ul class="sub">
-			                <li><div style="float: left;"></div><a href="#">히라가나</a></li>
-			                <li><div style="float: left;"></div><a href="#">가타카나</a></li>
-			            </ul>
-			        </li>  
+			    <ul class="list_edit_ul">
+			    	<li>+</li>
+			    	<li>-</li>
+			    	<li>↑</li>
+			    	<li>↓</li>
 			    </ul>
 			</div>
 			<div class="unit_list">
-				<div class="search">
-					<i class="fas fa-search"></i>
-					<input type="text" name="search" placeholder="과목, 단원 등을 검색하세요">
-				</div>
-				<p id="voca_intro">최근 사용한 단어장</p>
-				<div class="unit_list_sub">
-					<li class="unit_list_sub_title">
-						<div></div>
-						1단원
-						<p>40카드</p>
-					</li>
-				</div>
-				<div class="unit_list_sub">
-					<li class="unit_list_sub_title">
-						<div></div>
-						붕당정치
-						<p>20카드</p>
-					</li>
-				</div>
-				<div class="unit_list_sub">
-					<li class="unit_list_sub_title">
-						<div></div>
-						대통령 선거
-						<p>30카드</p>
-					</li>
-				</div>
+				<ul class="unit_list_ul">
+					<div class="unit_list_sub">
+						<li>1단원</li>
+						<ul class="unit_list_sub_ul">
+							<li><img src="image/modify.png"></li>
+							<li><img src="image/share.png"></li>
+							<li><img src="image/trash.png"></li>
+						</ul>
+					</div>
+					<div class="unit_list_sub">
+						<li>2단원</li>
+						<ul class="unit_list_sub_ul">
+							<li><img src="image/modify.png"></li>
+							<li><img src="image/share.png"></li>
+							<li><img src="image/trash.png"></li>
+						</ul>
+					</div>
+					<li class="unit_list_ul_last">+<br/>추가하기</li>
+				</ul>
 			</div>
 		</div>
 		<div class="footer">
